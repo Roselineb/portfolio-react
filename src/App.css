@@ -1,0 +1,169 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container styles */
+.container {
+  width: 100%;
+  max-width: 960px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header styles */
+.header {
+  background-color: #343a40; /* Dark background */
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Skills styles */
+.skills,
+.projects,
+.contact {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.skills h2,
+.projects h2,
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #666; /* Subdued text color */
+}
+
+/* Projects styles */
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.project p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.project a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.project a:hover {
+  color: #0056b3; /* Darker link color on hover */
+}
+
+/* Contact styles */
+.contact {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.contact-methods {
+  text-align: left;
+}
+
+.contact-methods p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.contact-methods a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.contact-methods a:hover {
+  color: #0056b3; /* Darker link color on hover */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #343a40; /* Dark background */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
